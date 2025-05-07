@@ -1,0 +1,1 @@
+# Electric_Theft_Detector_shortcut
