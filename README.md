@@ -61,7 +61,7 @@ Epoch 022 | TrainLoss: 0.1460 | ValLoss: 0.1006 | Acc: 0.7000 | F1: 0.2105 | Neu
  Added neurons: 70 total neurons now
 Epoch 023 | TrainLoss: 0.1158 | ValLoss: 0.1255 | Acc: 0.6100 | F1: 0.0714 | Neurons: 70 | LR: 0.00810
  Early stopping at epoch 23
-✅ Training completed in 9.26 seconds.
+✅ Training completed in 7.82 seconds.
 ```
 
 <center><img src="README_media/figure_0.png" width="1305" alt="figure_0.png"></center>
@@ -122,9 +122,114 @@ Epoch 45 - Loss: 2.4663 - Acc: 91.00% - Filters: 32
 Epoch 46 - Loss: 1.0689 - Acc: 80.90% - Filters: 32
 Epoch 47 - Loss: 0.8634 - Acc: 91.00% - Filters: 32
  Early stopping triggered at epoch 47
-✅ Training finished in 124.37 seconds.
-Error using trainSigmoidClassifier
-Too many output arguments.
-Error in trainWideAndDeepEndToEnd (line 38)
-  [W, b, logits, lossHistory, accHistory, f1History] = trainSigmoidClassifier(X, y, learningRate, maxEpochs, patience);
+✅ Training finished in 120.27 seconds.
+Epoch 01 - Loss: 0.6982 - Acc: 39.00% - F1: 0.1621
+Epoch 02 - Loss: 0.6831 - Acc: 65.70% - F1: 0.1614
+Epoch 03 - Loss: 0.6687 - Acc: 86.30% - F1: 0.0420
+Epoch 04 - Loss: 0.6552 - Acc: 90.50% - F1: 0.0000
+Epoch 05 - Loss: 0.6424 - Acc: 91.00% - F1: 0.0000
+Epoch 06 - Loss: 0.6303 - Acc: 91.00% - F1: 0.0000
+Epoch 07 - Loss: 0.6189 - Acc: 91.00% - F1: 0.0000
+Epoch 08 - Loss: 0.6081 - Acc: 91.00% - F1: 0.0000
+Epoch 09 - Loss: 0.5978 - Acc: 91.00% - F1: 0.0000
+Epoch 10 - Loss: 0.5881 - Acc: 91.00% - F1: 0.0000
+Epoch 11 - Loss: 0.5789 - Acc: 91.00% - F1: 0.0000
+Epoch 12 - Loss: 0.5701 - Acc: 91.00% - F1: 0.0000
+Epoch 13 - Loss: 0.5619 - Acc: 91.00% - F1: 0.0000
+Epoch 14 - Loss: 0.5540 - Acc: 91.00% - F1: 0.0000
+Epoch 15 - Loss: 0.5465 - Acc: 91.00% - F1: 0.0000
+Epoch 16 - Loss: 0.5394 - Acc: 91.00% - F1: 0.0000
+Epoch 17 - Loss: 0.5326 - Acc: 91.00% - F1: 0.0000
+Epoch 18 - Loss: 0.5262 - Acc: 91.00% - F1: 0.0000
+Epoch 19 - Loss: 0.5201 - Acc: 91.00% - F1: 0.0000
+Epoch 20 - Loss: 0.5142 - Acc: 91.00% - F1: 0.0000
+Epoch 21 - Loss: 0.5086 - Acc: 91.00% - F1: 0.0000
+Epoch 22 - Loss: 0.5033 - Acc: 91.00% - F1: 0.0000
+Epoch 23 - Loss: 0.4982 - Acc: 91.00% - F1: 0.0000
+Epoch 24 - Loss: 0.4933 - Acc: 91.00% - F1: 0.0000
+Epoch 25 - Loss: 0.4887 - Acc: 91.00% - F1: 0.0000
+Epoch 26 - Loss: 0.4842 - Acc: 91.00% - F1: 0.0000
+Epoch 27 - Loss: 0.4800 - Acc: 91.00% - F1: 0.0000
+Epoch 28 - Loss: 0.4759 - Acc: 91.00% - F1: 0.0000
+Epoch 29 - Loss: 0.4720 - Acc: 91.00% - F1: 0.0000
+Epoch 30 - Loss: 0.4682 - Acc: 91.00% - F1: 0.0000
+Epoch 31 - Loss: 0.4646 - Acc: 91.00% - F1: 0.0000
+Epoch 32 - Loss: 0.4611 - Acc: 91.00% - F1: 0.0000
+Epoch 33 - Loss: 0.4578 - Acc: 91.00% - F1: 0.0000
+Epoch 34 - Loss: 0.4546 - Acc: 91.00% - F1: 0.0000
+Epoch 35 - Loss: 0.4515 - Acc: 91.00% - F1: 0.0000
+Epoch 36 - Loss: 0.4486 - Acc: 91.00% - F1: 0.0000
+Epoch 37 - Loss: 0.4457 - Acc: 91.00% - F1: 0.0000
+Epoch 38 - Loss: 0.4430 - Acc: 91.00% - F1: 0.0000
+Epoch 39 - Loss: 0.4403 - Acc: 91.00% - F1: 0.0000
+Epoch 40 - Loss: 0.4378 - Acc: 91.00% - F1: 0.0000
+Epoch 41 - Loss: 0.4353 - Acc: 91.00% - F1: 0.0000
+Epoch 42 - Loss: 0.4329 - Acc: 91.00% - F1: 0.0000
+Epoch 43 - Loss: 0.4306 - Acc: 91.00% - F1: 0.0000
+Epoch 44 - Loss: 0.4284 - Acc: 91.00% - F1: 0.0000
+Epoch 45 - Loss: 0.4262 - Acc: 91.00% - F1: 0.0000
+Epoch 46 - Loss: 0.4242 - Acc: 91.00% - F1: 0.0000
+Epoch 47 - Loss: 0.4222 - Acc: 91.00% - F1: 0.0000
+Epoch 48 - Loss: 0.4202 - Acc: 91.00% - F1: 0.0000
+Epoch 49 - Loss: 0.4183 - Acc: 91.00% - F1: 0.0000
+Epoch 50 - Loss: 0.4165 - Acc: 91.00% - F1: 0.0000
+Epoch 51 - Loss: 0.4147 - Acc: 91.00% - F1: 0.0000
+Epoch 52 - Loss: 0.4130 - Acc: 91.00% - F1: 0.0000
+Epoch 53 - Loss: 0.4114 - Acc: 91.00% - F1: 0.0000
+Epoch 54 - Loss: 0.4097 - Acc: 91.00% - F1: 0.0000
+Epoch 55 - Loss: 0.4082 - Acc: 91.00% - F1: 0.0000
+Epoch 56 - Loss: 0.4067 - Acc: 91.00% - F1: 0.0000
+Epoch 57 - Loss: 0.4052 - Acc: 91.00% - F1: 0.0000
+Epoch 58 - Loss: 0.4037 - Acc: 91.00% - F1: 0.0000
+Epoch 59 - Loss: 0.4024 - Acc: 91.00% - F1: 0.0000
+Epoch 60 - Loss: 0.4010 - Acc: 91.00% - F1: 0.0000
+Epoch 61 - Loss: 0.3997 - Acc: 91.00% - F1: 0.0000
+Epoch 62 - Loss: 0.3984 - Acc: 91.00% - F1: 0.0000
+Epoch 63 - Loss: 0.3971 - Acc: 91.00% - F1: 0.0000
+Epoch 64 - Loss: 0.3959 - Acc: 91.00% - F1: 0.0000
+Epoch 65 - Loss: 0.3947 - Acc: 91.00% - F1: 0.0000
+Epoch 66 - Loss: 0.3936 - Acc: 91.00% - F1: 0.0000
+Epoch 67 - Loss: 0.3925 - Acc: 91.00% - F1: 0.0000
+Epoch 68 - Loss: 0.3914 - Acc: 91.00% - F1: 0.0000
+Epoch 69 - Loss: 0.3903 - Acc: 91.00% - F1: 0.0000
+Epoch 70 - Loss: 0.3893 - Acc: 91.00% - F1: 0.0000
+Epoch 71 - Loss: 0.3882 - Acc: 91.00% - F1: 0.0000
+Epoch 72 - Loss: 0.3872 - Acc: 91.00% - F1: 0.0000
+Epoch 73 - Loss: 0.3863 - Acc: 91.00% - F1: 0.0000
+Epoch 74 - Loss: 0.3853 - Acc: 91.00% - F1: 0.0000
+Epoch 75 - Loss: 0.3844 - Acc: 91.00% - F1: 0.0000
+Epoch 76 - Loss: 0.3835 - Acc: 91.00% - F1: 0.0000
+Epoch 77 - Loss: 0.3826 - Acc: 91.00% - F1: 0.0000
+Epoch 78 - Loss: 0.3818 - Acc: 91.00% - F1: 0.0000
+Epoch 79 - Loss: 0.3809 - Acc: 91.00% - F1: 0.0000
+Epoch 80 - Loss: 0.3801 - Acc: 91.00% - F1: 0.0000
+Epoch 81 - Loss: 0.3793 - Acc: 91.00% - F1: 0.0000
+Epoch 82 - Loss: 0.3785 - Acc: 91.00% - F1: 0.0000
+Epoch 83 - Loss: 0.3777 - Acc: 91.00% - F1: 0.0000
+Epoch 84 - Loss: 0.3769 - Acc: 91.00% - F1: 0.0000
+Epoch 85 - Loss: 0.3762 - Acc: 91.00% - F1: 0.0000
+Epoch 86 - Loss: 0.3755 - Acc: 91.00% - F1: 0.0000
+Epoch 87 - Loss: 0.3748 - Acc: 91.00% - F1: 0.0000
+Epoch 88 - Loss: 0.3741 - Acc: 91.00% - F1: 0.0000
+Epoch 89 - Loss: 0.3734 - Acc: 91.00% - F1: 0.0000
+Epoch 90 - Loss: 0.3727 - Acc: 91.00% - F1: 0.0000
+Epoch 91 - Loss: 0.3720 - Acc: 91.00% - F1: 0.0000
+Epoch 92 - Loss: 0.3714 - Acc: 91.00% - F1: 0.0000
+Epoch 93 - Loss: 0.3708 - Acc: 91.00% - F1: 0.0000
+Epoch 94 - Loss: 0.3701 - Acc: 91.00% - F1: 0.0000
+Epoch 95 - Loss: 0.3695 - Acc: 91.00% - F1: 0.0000
+Epoch 96 - Loss: 0.3689 - Acc: 91.00% - F1: 0.0000
+Epoch 97 - Loss: 0.3683 - Acc: 91.00% - F1: 0.0000
+Epoch 98 - Loss: 0.3678 - Acc: 91.00% - F1: 0.0000
+Epoch 99 - Loss: 0.3672 - Acc: 91.00% - F1: 0.0000
+Epoch 100 - Loss: 0.3666 - Acc: 91.00% - F1: 0.0000
 ```
+
+<center><img src="README_media/figure_1.png" width="562" alt="figure_1.png"></center>
+
+
+<center><img src="README_media/figure_2.png" width="562" alt="figure_2.png"></center>
+
+
+<center><img src="README_media/figure_3.png" width="562" alt="figure_3.png"></center>
+
