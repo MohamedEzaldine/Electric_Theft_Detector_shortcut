@@ -61,7 +61,7 @@ Epoch 022 | TrainLoss: 0.1460 | ValLoss: 0.1006 | Acc: 0.7000 | F1: 0.2105 | Neu
  Added neurons: 70 total neurons now
 Epoch 023 | TrainLoss: 0.1158 | ValLoss: 0.1255 | Acc: 0.6100 | F1: 0.0714 | Neurons: 70 | LR: 0.00810
  Early stopping at epoch 23
-✅ Training completed in 17.41 seconds.
+✅ Training completed in 9.26 seconds.
 ```
 
 <center><img src="README_media/figure_0.png" width="1305" alt="figure_0.png"></center>
@@ -122,15 +122,9 @@ Epoch 45 - Loss: 2.4663 - Acc: 91.00% - Filters: 32
 Epoch 46 - Loss: 1.0689 - Acc: 80.90% - Filters: 32
 Epoch 47 - Loss: 0.8634 - Acc: 91.00% - Filters: 32
  Early stopping triggered at epoch 47
-✅ Training finished in 125.05 seconds.
-```
-
-<center><img src="README_media/figure_1.png" width="1248" alt="figure_1.png"></center>
-
-
-```TextOutput
+✅ Training finished in 124.37 seconds.
 Error using trainSigmoidClassifier
-Too many input arguments.
-Error in trainWideAndDeepEndToEnd (line 39)
-  [W, b, logits, lossHistory, accHistory, f1History] = trainSigmoidClassifier(X, y, maxEpochs, learningRate, patience, lambda);
+Too many output arguments.
+Error in trainWideAndDeepEndToEnd (line 38)
+  [W, b, logits, lossHistory, accHistory, f1History] = trainSigmoidClassifier(X, y, learningRate, maxEpochs, patience);
 ```
